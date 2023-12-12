@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer_container
+{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 10px;
+    background: #000410;
+}
+.footer_container .contant
+{
+    padding: 20px 30px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container .contant .box
+{
+    width: 50%;
+    padding: 10px 20px;
+}
+.footer_container .contant .box h3
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer_container .contant .box p
+{
+    color: #8a8a8a;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.footer_container .contant .box p span
+{
+    color: #62bdfc;
+}
+.footer_container .contant .box .form
+{
+    margin-top: 15px;
+    display: flex;
+}
+.footer_container .contant .box .form input
+{
+    padding: 10px 5px;
+    width: 300px;
+    outline: none;
+    border: none;
+}
+.footer_container .contant .box .form button
+{
+    padding: 10px 10px;
+    background: #62bdfc;
+    color: #000410;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer_container .contant .box .icon
+{
+    display: flex;
+    margin-top: 20px;
+}
+.footer_container .contant .box .icon li
+{
+    list-style: none;
+    padding: 10px 10px;
+    margin-left: 20px;
+    background: #62bdfc;
+    border-radius: 50%;
+    color: #000410;
+    font-size: 16px;
+    cursor: pointer; 
+}

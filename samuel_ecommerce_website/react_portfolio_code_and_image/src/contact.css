@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.contact
+{
+    width: 100%;
+}
+.contact .contact_banner
+{
+    max-width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+    background: #f9f9ff;
+}
+.contact .contact_banner p
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #232323;
+    letter-spacing: 1px;
+}
+.contact .contact_banner h3
+{
+    margin-top: 10px;
+    color: #62bdfc;
+    font-size: 52px;
+}
+.contact .container
+{
+    width: 100%;
+    padding: 20px 30px;
+}
+.contact .container h2
+{
+    text-align: center;
+    color: #232323;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contact .container .form-container 
+{
+    display: flex;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.contact .container .form-container .left_box
+{
+    padding: 30px 40px;
+    background: #272a34;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.contact .container .form-container .left_box h4
+{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.contact .container .form-container .left_box .form
+{
+    margin-top: 20px;
+}
+.contact .container .form-container .left_box .form .input_box
+{
+    padding: 10px 20px;
+}
+.contact .container .form-container .left_box .form .input_box input
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 280px;
+    background: none;
+    border-bottom: 1px solid #fff;
+    color:#fff;
+}
+.contact .container .form-container .left_box .form .input_box textarea
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 280px;
+    background: none;
+    border-bottom: 1px solid #fff;
+    resize: none;
+    color:#fff;
+}
+.contact .container .form-container .left_box .form button
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    color: #232323;
+    background: #62bdfc;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.contact .container .form-container .right
+{
+    padding: 30px 40px;
+    background: #1c1e25;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contact .container .form-container .right h4
+{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.contact .container .form-container .right p
+{
+    color: #bfbfbf;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.contact .container .form-container .right .info_box
+{
+    display: flex;
+    margin-top: 20px;
+}
+.contact .container .form-container .right .info_box .icon
+{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 10px;
+    background: #272a34;
+    border-radius: 50%;
+}
+.contact .container .form-container .right .info_box .deatil h4
+{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.contact .container .form-container .right .info_box .deatil p
+{
+    margin-left: 30px;
+}
